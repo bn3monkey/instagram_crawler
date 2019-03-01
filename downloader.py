@@ -4,7 +4,7 @@ import errno
 import urllib.request
 import os.path
 
-file_path = "d:\Z_Non_Program_Files\STUDY\VSCode\instagram-crawler\\"
+file_path = "d:\Z_Non_Program_Files\STUDY\VSCode\crawler\\"
 
 def get_filenum(image_path) : 
     count = 1
@@ -35,7 +35,7 @@ def make_directory(directory_path) :
 
 def json_download() : 
 
-    with open(file_path + 'output') as data_file:    
+    with open(file_path + 'instagram-crawler\output') as data_file:    
         data = json.load(data_file)
     data_file.close()
 
