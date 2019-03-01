@@ -1,0 +1,3 @@
+[submodule "instagram-crawler"]
+	path = instagram-crawler
+	url = https://github.com/huaying/instagram-crawler
